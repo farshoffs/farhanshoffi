@@ -15,7 +15,6 @@
           "options": {
             "outputPath": "dist/farhanshoffi",
             "index": "src/index.html",
-            "main": "src/main.ts",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -34,9 +33,6 @@
           },
           "configurations": {
             "production": {
-              "optimization" : true,
-              "aot": true,
-              "buildOptimizer": true,
               "budgets": [
                 {
                   "type": "initial",
